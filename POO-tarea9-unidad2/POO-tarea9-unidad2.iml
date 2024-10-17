@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/POO-tarea9-unidad2/Tarea#9_Unidad2" isTestSource="false" packagePrefix="consultas" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="POO-tarea11-unidad2" />
+    <orderEntry type="module" module-name="POO-tarea12-unidad2" />
+    <orderEntry type="module" module-name="POO-tarea10-unidad2" />
+  </component>
+</module>
