@@ -1,0 +1,65 @@
+1. Caso exitoso: Entrada válida
+
+**Entrada**:
+Ingrese el nombre del producto: Televisor
+Ingrese el precio del producto: 500
+Ingrese la cantidad en inventario: 10
+
+**Salida**:
+
+Producto: Televisor
+Precio: $500.0
+Cantidad: 10
+Valor total: $5000.0
+
+2. Caso de error: `ProductoInvalidoException` (nombre vacío o nulo)
+
+**Entrada**:
+Ingrese el nombre del producto: 
+Ingrese el precio del producto: 500
+Ingrese la cantidad en inventario: 10
+
+**Salida**:
+Error: El nombre del producto no puede estar vacío o ser nulo.
+
+3. Caso de error: `PrecioInvalidoException` (precio negativo)
+
+**Entrada**:
+Ingrese el nombre del producto: Computadora
+Ingrese el precio del producto: -100
+Ingrese la cantidad en inventario: 5
+```
+
+**Salida**:
+Error: El precio del producto debe ser mayor que cero.
+
+4. Caso de error: `PrecioInvalidoException` (precio igual a cero)
+
+**Entrada**:
+Ingrese el nombre del producto: Impresora
+Ingrese el precio del producto: 0
+Ingrese la cantidad en inventario: 3
+
+**Salida**:
+Error: El precio del producto debe ser mayor que cero.
+
+### 5. Caso de error: `CantidadInvalidaException` (cantidad negativa)
+
+**Entrada**:
+Ingrese el nombre del producto: Monitor
+Ingrese el precio del producto: 250
+Ingrese la cantidad en inventario: -5
+
+**Salida**:
+Error: La cantidad del producto no puede ser negativa.
+
+### 6. Caso de error inesperado: Entrada inválida (tipo de dato incorrecto)
+
+**Entrada** (cuando se ingresa un texto en lugar de un número para el precio o cantidad):
+Ingrese el nombre del producto: Auriculares
+Ingrese el precio del producto: abc
+Ingrese la cantidad en inventario: 10
+```
+
+**Salida**:
+Error inesperado. Por favor, revise los datos ingresados.
